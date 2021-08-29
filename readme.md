@@ -1,9 +1,9 @@
 
 ## Abstract
 This sample code is for turtlebot3 simulator and turtlebot3.
-This code activate a node "main" and the other sensor nodes. 
+This code activates a node "main" and the other sensor nodes. 
 Main node subscribes three topics -- imu, odom, and scan. 
-Main node publish a marker, which will move around the turtlebot3.
+Main node publish a marker, which moves around the turtlebot3.
 You can access data from three Callback functions in src/main.cpp.
 You can see it in rviz.
 
