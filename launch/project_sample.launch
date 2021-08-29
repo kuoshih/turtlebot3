@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+
+    <!-- arg name="output"           default="screen" /--> 
+
+
+    <!-- Listener -->
+    <node name="main" pkg="turtlebot3" type="main"  output="screen">
+    </node>
+
+    <node pkg="tf" type="static_transform_publisher" name="odomtoframe" args="0 0 0 0 0 0 /base_footprint /base_scan 100" />
+    <node pkg="tf" type="static_transform_publisher" name="base2target" args="0 0 0 0 0 0 /base_footprint /target 100" />
+
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find turtlebot3)/rviz/tb3.rviz"/>
+
+</launch>
