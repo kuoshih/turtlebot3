@@ -18,7 +18,7 @@ License: Apache 2.0
 
 ## Compile the code
 $ cd catkin_ws/src  
-$ git clone https://github.com/kuoshih/turtlebot3 
+$ git clone https://github.com/kuoshih/turtlebot3   
 $ cd ..  
 $ catkin_make  or catin build
 
