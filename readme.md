@@ -34,21 +34,21 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch # Terminal 1
 $ roslaunch turtlebot3 project_sample.launch # Terminal 2  
 
 ## Run the code  (for turtlebot3 robot)
-Run the bringup in turtlebot3.
-$ roscore  # Terminal 1 in your laptop or PC.
+Run the bringup in turtlebot3.  
+$ roscore  # Terminal 1 in your laptop or PC.  
 
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch# Terminal 1 in turtlebot3.  
 
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch # Terminal 2 in your laptop or PC.
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch # Terminal 2 in your laptop or PC.  
 
-The bashrc configuration about two devices' IP can be found in
-https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
-https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup
+The bashrc configuration about two devices' IP can be found in  
+https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup  
+https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup  
 ## rviz
-Then, you can see the rviz.
-![alt text](https://github.com/kuoshih/hypharos_minibot/blob/master/document/rviz.png)  
+Then, you can see the rviz.  
+![alt text](https://github.com/kuoshih/turtlebot3/blob/main/document/rviz.png)  
 ## Edit code  
-You can edit src/main.cpp for your project.
+You can edit src/main.cpp for your project.  
 
 ## About Turtlebot3
-More information about Turtlebot3 can be found https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/ .
+More information about Turtlebot3 can be found   https://emanual.robotis.com/docs/en/platform/turtlebot3/overview/ .
