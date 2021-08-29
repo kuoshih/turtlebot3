@@ -18,7 +18,7 @@ License: Apache 2.0
 
 ## Compile the code
 $ cd catkin_ws/src  
-$ git clone https://github.com/kuoshih/turtlebot3
+$ git clone https://github.com/kuoshih/turtlebot3 
 $ cd ..  
 $ catkin_make  or catin build
 
@@ -29,6 +29,8 @@ $cd catkin_ws
 $catkin_make  or catin build
 
 ## Run the code  (for gazebo simulator)
+You can install turtlebot_simulator first.  
+See the details in https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/  
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch # Terminal 1  
 
 $ roslaunch turtlebot3 project_sample.launch # Terminal 2  
