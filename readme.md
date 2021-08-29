@@ -1,9 +1,9 @@
 
 ## Abstract
 This sample code is for turtlebot3 simulator and turtlebot3.
-This code activates a node "main" and the other sensor nodes. 
+This code activates a node "main". 
 Main node subscribes three topics -- imu, odom, and scan. 
-Main node publish a marker, which moves around the turtlebot3.
+Main node publishes a marker moving around the turtlebot3.
 You can access data from three Callback functions in src/main.cpp.
 You can see it in rviz.
 
@@ -25,8 +25,8 @@ $ catkin_make  or catin build
 Or Download this this code to pi\catkin_ws\src.   
 Unzip hypharos_minibot.zip to replace the original code.
   
-$cd catkin_ws  
-$catkin_make  or catin build
+$ cd catkin_ws  
+$ catkin_make  or catin build
 
 ## Run the code  (for gazebo simulator)
 You can install turtlebot_simulator first.  
